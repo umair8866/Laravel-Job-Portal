@@ -26,7 +26,7 @@ Follow these instructions to set up and run the project locally on your Machine.
    git clone https://github.com/umair8866/Laravel-Job-Portal.git
 ```
  ```bash
-   cd hospitalMS
+   cd Laravel-Job-Portal
 ```
 
  ```bash
@@ -41,6 +41,8 @@ php artisan key:generate
 ```bash
 php artisan storage:link
 ```
+Setup your database and enter you db credentials in env
+
  ```bash
  php artisan migrate:fresh --seed
 ```
